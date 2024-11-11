@@ -1,0 +1,48 @@
+.title{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-family: "Nabla", system-ui;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: aqua;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+}
+.fff{
+    background-color: blue;
+}
+.mona{
+    text-align: center;
+    font-family: "Nabla", system-ui;
+}
+.ddd{
+    text-align: center;
+    background-color:yellow;
+    transform: scale(1.1);
+    color: white;
+    background-color: blueviolet;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.50s ease;
+}
+.ddd:hover{
+    background-color:yellow;
+    transform: scale(1.1);
+    text-align: center;
+    justify-content: center;
+}
